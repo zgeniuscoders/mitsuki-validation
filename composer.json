@@ -1,6 +1,16 @@
 {
   "name": "mitsuki/validators",
   "type": "library",
+  "description": "A Symfony Validator–based request validation layer for PHP, providing an abstract RequestValidator and structured ValidationException for HTTP 422 responses.",
+  "keywords": [
+    "validation",
+    "symfony-validator",
+    "request-validator",
+    "http-request",
+    "php-validation",
+    "api-validation",
+    "form-validation"
+  ],
   "autoload": {
     "psr-4": {
       "Mitsuki\\Hermite\\": "src/",
