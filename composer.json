@@ -21,5 +21,11 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require": {
+    "mitsuki/contracts": "^1.0",
+    "symfony/validator": "^8.0",
+    "mitsuki/http": "^1.0",
+    "doctrine/annotations": "^2.0"
   }
 }
