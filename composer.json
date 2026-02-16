@@ -1,0 +1,25 @@
+{
+  "name": "mitsuki/validators",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Mitsuki\\Hermite\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "zgeniusecoders",
+      "email": "zgeniusecoders@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "php": "^8.4",
+    "pestphp/pest": "^4.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
